@@ -1,0 +1,71 @@
+
+
+*{ margin: 0; padding: 0; box-sizing: border-box; 
+font-family: 'Josefin Sans', sans-serif; }
+
+.carousel-inner img {
+  width: 100%;
+  height: 80vh;
+}
+
+  .aboutimg{
+    width: 100%;
+    height: 250px!important;
+  }
+
+
+  /****************************About****************************/
+.about {
+  padding-top: 10px;
+  padding-left: 25px ;
+  padding-right: 25px;
+  }
+  .about .h2{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .about .h4{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+  }
+  .about .abt1_p{
+    font-size: 1.5rem;
+  text-align: center;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+
+/*********************WhatsApp****************/
+.whatsapp .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:70px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px rgb(159, 248, 174);
+  z-index:100;
+  text-decoration: none;
+}
+.whatsapp .float:hover{
+    background-color: #25d366;
+    color: black;
+}
+.whatsapp .my-float{
+	margin-top:16px;
+}
+
+.whatsapp p{
+  font-size: small;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: -webkit-linear-gradient(blue,rgb(132, 130, 238), orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top:15px;
+}
